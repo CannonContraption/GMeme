@@ -1,2 +1,2 @@
-# gmeme
-I don't know what this but Jim mentioned something about photo viewers
+#gmeme
+Eventually to be a lightweight "meme viewer" or image viewer
