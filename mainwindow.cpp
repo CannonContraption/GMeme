@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
   ui->setupUi(this);
-  qpx = new QPixmap("/home/jim/Documents/Programs/GMeme/gm_banner_1.jpg");
+  qpx = new QPixmap("gm_banner_1.jpg"); //If this isn't in your working directory, you aren't doing it The Right Way(tm)
   ui->mainImage->setText("This will have a path.");
   ui->gm_ban1->setPixmap(*qpx);
   ui->gm_ban2->setPixmap(*qpx);
