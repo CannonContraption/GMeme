@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QFileDialog>
 #include <QPixmap>
 
 namespace Ui {
@@ -14,9 +15,11 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = 0);
+    QPixmap * qpx;
+    QFileDialog * filedia;
     ~MainWindow();
-private slots:
-    void on_open_item();
+public slots:
+    void on_openImage_clicked();
 private:
     Ui::MainWindow *ui;
 };

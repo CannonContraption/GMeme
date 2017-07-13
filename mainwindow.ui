@@ -17,8 +17,22 @@
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <layout class="QGridLayout" name="gridLayout">
-      <item row="0" column="0">
+      <item row="1" column="0">
        <widget class="QLabel" name="mainImage">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="gm_ban1">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="gm_ban2">
         <property name="text">
          <string>TextLabel</string>
         </property>
@@ -41,7 +55,7 @@
     <property name="title">
      <string>Fi&amp;le</string>
     </property>
-    <addaction name="actionOpen"/>
+    <addaction name="openImage"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
@@ -54,7 +68,7 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionOpen">
+  <action name="openImage">
    <property name="text">
     <string>Open</string>
    </property>
